@@ -29,7 +29,7 @@ var gender = 'Masculino'
 console.log("" + firstLastName.charAt(0)+ firstLastName.charAt(2) + secondLastName.charAt(0)+
 name.charAt(0)) + dayOfBirth.valueOf(8) + dayOfBirth ;*/
 
-/ Dado tu nombre, apellidos, fecha de nacimiento, genero
+//Dado tu nombre, apellidos, fecha de nacimiento, genero
 // y lugar de nacimiento dar la primera parte del CURP
 // 14-11-1996
 var name = 'David'
@@ -48,7 +48,7 @@ var day = birthDate.slice(0, 2)
 var abbreviationGender = gender.charAt(0)
 var curp = ${abbreviationName}${year}${month}${day}${abbreviationGender}${birthCity}
 
-//secondLastName.charAt(2);
+secondLastName.charAt(2);
 
 //imprimir el cuadrado de cada numero
 //var numbers = [1,2,3,4,5,6,7,8]
